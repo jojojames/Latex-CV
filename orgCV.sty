@@ -66,9 +66,9 @@
     \def\@yourpicturewidth{\CV@profilePicWidth}
   \fi
   \renewcommand*{\maketitle}{%
-    \begin{minipage}[t]{0.7\linewidth}
+    \begin{minipage}[t]{0.2\linewidth}
       % Insert candidate's name as given in the org-file.
-      \raggedright{{\huge \bfseries \scalebox{1.2}{\@title}}}\\[.5in]
+      \raggedright{{\large \bfseries \scalebox{1.2}{\@title}}}\\[.5in]
     \end{minipage}
     \hfill
     \ifdef{\@yourpicture}{ % profile pic was provided
@@ -101,7 +101,7 @@
               {0pt} %sep
               {} %before
               [\titlerule\vspace{2ex}]
-  \titlespacing{\section}{0pt}{5ex}{0ex}
+  \titlespacing{\section}{0pt}{4ex}{0ex}
 
   \titleformat{\subsection} %command
               {\small\bfseries\raggedright} %format
